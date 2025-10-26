@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
-// 1. Flashcard model
 class Flashcard {
   final String symbol;
   final String type;
@@ -12,7 +11,6 @@ class Flashcard {
   Flashcard(this.symbol, this.type, this.place, this.manner, this.voicing);
 }
 
-// 2. Stateful widget
 class PhoneticsFlashcardsPage extends StatefulWidget {
   @override
   _PhoneticsFlashcardsPageState createState() => _PhoneticsFlashcardsPageState();
