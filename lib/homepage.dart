@@ -16,11 +16,14 @@ class HomePage extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: features.map((feature) {
-            return ElevatedButton(
-                onPressed: () {
-                  Navigator.pushNamed(context, feature['route']!);
-                },
-                child: Text(feature['title']!),
+            return Padding(
+              padding: const EdgeInsets.symmetric(vertical: 8.0),
+              child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, feature['route']!);
+                  },
+                  child: Text(feature['title']!),
+              ),
             );
           }).toList(),
         ),
