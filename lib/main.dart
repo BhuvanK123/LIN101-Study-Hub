@@ -35,7 +35,7 @@ class Lin101App extends StatelessWidget {
       home: HomePage(),
       routes: {
         '/phonetics': (context) => PhoneticsPage(),
-        '/p_flashcards': (context) => PhoneticsFlashcards(),
+        '/p_flashcards': (context) => PhoneticsFlashcardsPage(),
         '/p_quiz': (context) => PhoneticsQuiz(),
         '/morphology': (context) => MorphologyPage(),
       },
