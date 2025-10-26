@@ -1,16 +1,41 @@
-# lin101_prep
+# LIN101 Study Hub
 
-Website designed to help prepare for LIN101
+This project is a personal initiative I began while taking **LIN101: Introduction to Linguistics**. As I progressed through the course, I found that many online resources were either too generalized, too technical, or didn’t align well with the structure and terminology used in our curriculum. To bridge that gap, I decided to build a study tool tailored specifically to LIN101. This is something modular, interactive, and designed to support both my own learning and that of others who might benefit from a more focused resource.
 
-## Getting Started
+The LIN101 Study Hub is a Flutter-based web application that organizes key topics in linguistics into accessible modules, starting with Phonetics. It’s designed to grow over time, with features that support active recall, self-testing, and visual learning.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Homepage** with clean navigation to each module
+- **Phonetics Module**
+    - Flashcards with filtering by:
+        - Vowel or Consonant
+        - Manner of articulation
+        - Place of articulation
+        - Voicing
+    - Quiz engine (in development)
+    - IPA chart placeholder (image integration planned)
+- Modular routing for future topics:
+    - Morphology
+    - Syntax
+    - Semantics
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠 Getting Started
+
+To run the app locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/BhuvanK123/LIN101-Study-Hub.git
+   cd LIN101-Study-Hub
+
+2. **Install dependencies**
+   flutter pub get
+
+3. **Launch the app in Chrome**
+   flutter run -d chrome
+
