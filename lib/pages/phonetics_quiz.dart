@@ -5,6 +5,9 @@ class PhoneticsQuiz extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(title: Text('Quiz')),
+      body: Center(child: Text('Page under construction!')),
+    );
   }
 }
