@@ -1,0 +1,139 @@
+What is the place of articulation for /p/?
+Bilabial|Alveolar|Velar|Glottal
+0
+
+What is the manner of articulation for /m/?
+Stop|Nasal|Fricative|Approximant
+1
+
+Is /f/ voiced or voiceless?
+Voiced|Voiceless
+1
+
+What is the manner of articulation for /v/?
+Stop|Nasal|Fricative|Affricate
+2
+
+What is the place of articulation for /θ/?
+Interdental|Alveolar|Labiodental|Velar
+0
+
+Is /ð/ voiced or voiceless?
+Voiced|Voiceless
+0
+
+What is the manner of articulation for /t/?
+Stop|Fricative|Nasal|Approximant
+0
+
+What is the place of articulation for /d/?
+Alveolar|Bilabial|Velar|Glottal
+0
+
+What is the manner of articulation for /n/?
+Nasal|Stop|Affricate|Fricative
+0
+
+Is /s/ voiced or voiceless?
+Voiced|Voiceless
+1
+
+What is the manner of articulation for /z/?
+Stop|Nasal|Fricative|Approximant
+2
+
+What is the manner of articulation for /ɹ/?
+Stop|Fricative|Approximant|Nasal
+2
+
+What is the place of articulation for /l/?
+Alveolar|Velar|Palatal|Glottal
+0
+
+What is the place of articulation for /ʃ/?
+Post-alveolar|Alveolar|Bilabial|Velar
+0
+
+Is /ʒ/ voiced or voiceless?
+Voiced|Voiceless
+0
+
+What is the manner of articulation for /tʃ/?
+Affricate|Fricative|Stop|Approximant
+0
+
+What is the manner of articulation for /dʒ/?
+Affricate|Stop|Nasal|Fricative
+0
+
+What is the place of articulation for /j/?
+Palatal|Velar|Alveolar|Bilabial
+0
+
+Is /k/ voiced or voiceless?
+Voiced|Voiceless
+1
+
+What is the manner of articulation for /g/?
+Stop|Nasal|Fricative|Approximant
+0
+
+What is the manner of articulation for /ŋ/?
+Nasal|Stop|Fricative|Affricate
+0
+
+What is the manner of articulation for /w/?
+Approximant|Stop|Nasal|Fricative
+0
+
+What is the place of articulation for /h/?
+Glottal|Velar|Alveolar|Bilabial
+0
+
+What is the manner of articulation for /ʔ/?
+Stop|Fricative|Nasal|Approximant
+0
+
+What is the height of the vowel /i/?
+High|Mid|Low|Central
+0
+
+What is the backness of /ɪ/?
+Front|Central|Back|Rounded
+0
+
+What is the backness of /u/?
+Front|Central|Back|Low
+2
+
+What is the height of /ʊ/?
+High|Mid|Low|Front
+0
+
+What is the height of /e/?
+High|Mid|Low|Back
+1
+
+What is the backness of /ɛ/?
+Front|Central|Back|Rounded
+0
+
+What is the backness of /ʌ/?
+Front|Central|Back|Low
+1
+
+What is the height of /ə/?
+High|Mid|Low|Front
+1
+
+What is the backness of /o/?
+Front|Central|Back|Low
+2
+
+What is the height of /æ/?
+High|Mid|Low|Back
+2
+
+What is the backness of /ɑ/?
+Front|Central|Back|Rounded
+2
