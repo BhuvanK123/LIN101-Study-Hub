@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lin101_prep/pages/phonetics_flashcards.dart';
+import 'package:lin101_prep/pages/phonetics_flashcards_page.dart';
 import 'package:lin101_prep/pages/phonetics_page.dart';
 import 'package:lin101_prep/pages/phonetics_quiz.dart';
 import 'homepage.dart';
