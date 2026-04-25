@@ -5,6 +5,7 @@ class HomePage extends StatelessWidget {
 
   final List<Map<String, String>> features = [
     {'title': 'Phonetics', 'route': '/phonetics'},
+    {'title': 'Syllables Practice', 'route': '/syllables'},
     {'title': 'Morphology', 'route': '/morphology'},
   ];
 
@@ -40,10 +41,7 @@ class HomePage extends StatelessWidget {
               const SizedBox(height: 12),
               const Text(
                 'Choose a topic to begin',
-                style: TextStyle(
-                  fontSize: 18,
-                  color: Colors.black87,
-                ),
+                style: TextStyle(fontSize: 18, color: Colors.black87),
               ),
               const SizedBox(height: 32),
               ...features.map((feature) {
@@ -56,7 +54,7 @@ class HomePage extends StatelessWidget {
                     child: Text(feature['title']!),
                   ),
                 );
-              }).toList(),
+              }),
             ],
           ),
         ),

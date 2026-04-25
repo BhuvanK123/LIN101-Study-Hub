@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lin101_prep/pages/phonetics_flashcards_page.dart';
 import 'package:lin101_prep/pages/phonetics_page.dart';
 import 'package:lin101_prep/pages/phonetics_quiz.dart';
+import 'package:lin101_prep/pages/syllables_page.dart';
 import 'homepage.dart';
 
 void main() {
@@ -24,7 +25,7 @@ class Lin101App extends StatelessWidget {
             backgroundColor: Colors.green[600],
             foregroundColor: Colors.white,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(8)
+              borderRadius: BorderRadius.circular(8),
             ),
             minimumSize: Size(double.infinity, 60),
             padding: EdgeInsets.symmetric(horizontal: 24),
@@ -37,15 +38,16 @@ class Lin101App extends StatelessWidget {
         '/phonetics': (context) => PhoneticsPage(),
         '/p_flashcards': (context) => PhoneticsFlashcardsPage(),
         '/p_quiz': (context) => PhoneticsQuiz(),
+        '/syllables': (context) => SyllablesPage(),
         '/morphology': (context) => MorphologyPage(),
       },
     );
   }
 }
 
-
-
 class MorphologyPage extends StatelessWidget {
+  const MorphologyPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
